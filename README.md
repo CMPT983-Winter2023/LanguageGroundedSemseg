@@ -47,7 +47,7 @@ Additionally, [MinkowskiEngine](https://github.com/NVIDIA/MinkowskiEngine) has t
 E.g. for CUDA 11.1 run 
 
 ```sh
-export CUDA_HOME=/usr/local/cuda-11.1
+export CUDA_HOME=/usr/local/cuda-11.6
 pip install -U git+https://github.com/NVIDIA/MinkowskiEngine -v --no-deps --install-option="--blas=openblas"
 ```
 Note: We use 0.5.x versions, where the pretrained weights are not compatible with models trained with 0.4.x ME releases.
